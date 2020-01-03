@@ -1,0 +1,14 @@
+Checks: 'clang-analyzer-*,-clang-analyzer-cplusplus*,boost-*,bugprone-*,cppcoreguidelines-*,modernize-*,-modernize-use-trailing-return-type,performance-*,readability-*'
+WarningsAsErrors: '*'
+HeaderFilterRegex: '(editor|game|gamelib|gameserver|uilib)/.*'
+CheckOptions:
+  - key: readability-identifier-naming.ClassCase
+    value: lower_case
+  - key: readability-identifier-naming.FunsionCase
+    value: lower_case
+  - key: readability-identifier-naming.UnionCase
+    value: lower_case
+  - key: readability-identifier-naming.EnumCase
+    value: lower_case
+  - key: readability-identifier-naming.VariableCase
+    value: lower_case
